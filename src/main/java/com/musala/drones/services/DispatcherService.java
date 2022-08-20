@@ -22,6 +22,9 @@ public class DispatcherService {
 
     public Drone registerDrone( Drone droneRequest) {
 
+        if (droneRepository.count() == 10) {
+            throw new DispatcherException("The Dispatch  service can not hold a fleet with more than 10 drones");
+        }
 
         if (droneRepository.existsById(droneRequest.getSerialNumber())) {
             throw new DispatcherException("Dispatch service  already has drone with Serial number: " + droneRequest.getSerialNumber());
