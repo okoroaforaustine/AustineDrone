@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Aug 20 13:33:02 WAT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0182-bb3e-0e08-00000cf4a9f8 
+on database directory memory:/Users/austineokoroafor/Documents/AustineDrones/1cfc3228-6746-4d6d-906c-5e2634f06a73 with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/Users/austineokoroafor/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_202-b08
+user.dir=/Users/austineokoroafor/Documents/AustineDrones
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.16
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
